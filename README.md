@@ -14,3 +14,4 @@ Automating tasks allows you to focus on projects that are a better use of your t
     ->programming in Python usually feels similar to using a human language.
     
 If your syntax is correct, but the script has unexpected behavior or output, this may be due to a semantic problem. Remember that syntax is the rules of how code is constructed, while semantics are the overall effect the code has. It is possible to have syntactically correct code that runs successfully, but doesn't do what we want it to do.
+![image](https://user-images.githubusercontent.com/105153770/167506049-984c1141-9a8b-4832-8e64-a8a260993af1.png)
