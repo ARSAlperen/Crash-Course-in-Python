@@ -28,6 +28,8 @@ author: "Alperen Arslan"
     "tigers" in animals=True
     "dragons" in animals=False
 
+# Methods
+
 # .upper(), .lower()
   country="turkey"
   country.upper()="TURKEY"
@@ -52,3 +54,6 @@ author: "Alperen Arslan"
 
 name.split("e")= ['Alp', 'r', 'n']
 " ".join(["This","is","a","sentence"])="This is a sentence".
+
+# replace()
+  name.replace("e","@")= "Alp@r@n"
