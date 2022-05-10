@@ -1,3 +1,29 @@
+---
+title: "Veri Görselleştirme"
+author: "Alperen Arslan"
+date: "`r Sys.Date() `" #altgr + virgül + space
+output: 
+  pdf_document: 
+    toc: yes
+  html_document: 
+    toc: yes
+    number_sections: yes
+---
+
+
+1) Keşfedici Veri Görselleştirme (Explaratory)
+2) Açıklayıcı Veri Görselleştirme (Explanatory)
+
+--Temel fonskiyonlar
+--Izgara Fonskiyonlar (izgara grafikleri)
+--Matris fonskiyonlar (kafes grafikleri)
+--ggplot2 (grammer of graphics)
+
+# Temel Grafikler
+
+## pie charts(pasta grafikleri)
+
+
 >>> fruit = "Mangosteen"
 >>> fruit[1:4]
 'ang'
