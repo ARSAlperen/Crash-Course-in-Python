@@ -18,4 +18,4 @@ If your syntax is correct, but the script has unexpected behavior or output, thi
 
 Not sure whether to use a for loop or a while loop? Remember that a while loop is great for performing an action over and over until a condition has changed. A for loop works well when you want to iterate over a sequence of elements.  
 
-![image](https://user-images.githubusercontent.com/105153770/167655334-077f545c-0470-47ba-b028-3fdc6b2a967f.png)
+![image](https://user-images.githubusercontent.com/105153770/167657405-5f943304-dcaa-4fec-9e8f-68b373dddcb9.png)
