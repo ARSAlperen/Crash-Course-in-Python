@@ -3,7 +3,9 @@ title: "Python String"
 author: "Alperen Arslan"
 ---
 
-# Index
+# Operations
+  ## len
+  ## Index operations
 
   >>> fruit = "Mangosteen"
   >>> fruit[1:4]
@@ -30,30 +32,41 @@ author: "Alperen Arslan"
 
 # Methods
 
-# .upper(), .lower()
-  country="turkey"
-  country.upper()="TURKEY"
+  ## .upper(), .lower()
+    country="turkey"
+    country.upper()="TURKEY"
 
-# strip()
-  name=" Alperen  "
-  name.strip()="Alperen"
-   ## lstrip() and rstrip() are good options as well.
+  ## strip()
+    name=" Alperen  "
+    name.strip()="Alperen"
+     ## lstrip() and rstrip() are good options as well.
+
+  ## count()
+    name.count("e")=2
+
+  ## endswith()
+    name.endswith("ren")= True
+
+  ## isnumeric()
+    name.isnumeric() = False
+    s="2"
+    s.isnumeric() = ***True***
+
+  ## split() and join()
+
+  name.split("e")= ['Alp', 'r', 'n']
+  " ".join(["This","is","a","sentence"])="This is a sentence".
+
+  ## replace()
+    name.replace("e","@")= "Alp@r@n"
+
+# Formatting {} 
+
+  name="Alperen"
+  surname="Arslan"
+  program="Python"
   
-# count()
-  name.count("e")=2
-
-# endswith()
-  name.endswith("ren")= True
-
-# isnumeric()
-  name.isnumeric() = False
-  s="2"
-  s.isnumeric() = ***True***
+  "Hi, I'm {name} {surname}. Trying to learn {program}".format(name=name,surname=surname,program=program) 
+  ->"Hi, I'm Alperen Arslan. Trying to learn Python"
   
-# split() and join()
-
-name.split("e")= ['Alp', 'r', 'n']
-" ".join(["This","is","a","sentence"])="This is a sentence".
-
-# replace()
-  name.replace("e","@")= "Alp@r@n"
+  ![image](https://user-images.githubusercontent.com/105153770/167711334-ac0db737-eeb8-4ecf-b9c9-098b14c5dbe4.png)
