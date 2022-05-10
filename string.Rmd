@@ -1,13 +1,7 @@
 ---
-title: "Veri Görselleştirme"
+title: "Python String"
 author: "Alperen Arslan"
 date: "`r Sys.Date() `" #altgr + virgül + space
-output: 
-  pdf_document: 
-    toc: yes
-  html_document: 
-    toc: yes
-    number_sections: yes
 ---
 
 
