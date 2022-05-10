@@ -1,0 +1,29 @@
+---
+title: "Python String"
+author: "Alperen Arslan"
+---
+
+# Index
+
+>>> fruit = "Mangosteen"
+>>> fruit[1:4]
+'ang'
+
+>>> fruit[:5]
+'Mango'
+
+>>> fruit[5:]
+'steen'
+
+>>> fruit[:5] + fruit[5:]
+'Mangosteen'
+
+
+animal="lions tigers and bears"
+animals.index("g")=8
+animals.index("bears") =17
+
+## Check if substring is in String
+
+"tigers" in animals=True
+"dragons" in animals=False
