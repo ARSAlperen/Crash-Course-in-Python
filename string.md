@@ -5,26 +5,23 @@ author: "Alperen Arslan"
 
 # Operations
   ## len
+```   
+  len("Zeynep")=6
+``` 
   ## Index operations
-
-  >>> fruit = "Mangosteen"
-  >>> fruit[1:4]
-  'ang'
-
-  >>> fruit[:5]
-  'Mango'
-
-  >>> fruit[5:]
-  'steen'
-
-  >>> fruit[:5] + fruit[5:]
-  'Mangosteen'
-
+``` 
+  fruit = "Mangosteen"
+  
+    fruit[1:4] ='ang'
+    fruit[:5] = 'Mango'
+    fruit[5:] = 'steen'
+    fruit[:5] + fruit[5:] = 'Mangosteen'
 
   animal="lions tigers and bears"
-  animals.index("g")=8
-  animals.index("bears") =17
-
+  
+    animals.index("g")=8
+    animals.index("bears") =17
+``` 
   ## Check if substring is in String
 
     "tigers" in animals=True
@@ -53,19 +50,19 @@ author: "Alperen Arslan"
     s.isnumeric() = ***True***
 
   ## split() and join()
-
+```{r}
   name.split("e")= ['Alp', 'r', 'n']
-  " ".join(["This","is","a","sentence"])="This is a sentence".
-
+  " ".join(["This","is","a","sentence"])=This is a sentence".
+``` 
   ## replace()
     name.replace("e","@")= "Alp@r@n"
 
 # Formatting {} 
-
+```{r}
   name="Alperen"
   surname="Arslan"
   program="Python"
-  
+``` 
   "Hi, I'm {name} {surname}. Trying to learn {program}".format(name=name,surname=surname,program=program) 
   ->"Hi, I'm Alperen Arslan. Trying to learn Python"
   
