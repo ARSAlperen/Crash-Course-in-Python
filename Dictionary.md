@@ -13,7 +13,8 @@
     toc["Chapter 3"]=24
   ### Check if Item Exist
     print("Chapter 5" in toc)
-
+  ### Update Dict
+     guests2.update (guests1)
   ### Delete Item
      del toc["Chapter 4"]
      
