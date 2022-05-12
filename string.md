@@ -49,6 +49,9 @@ author: "Alperen Arslan"
     s="2"
     s.isnumeric() = ***True***
 
+## str.isalpha()
+   Check if character is letter
+   
   ## split() and join()
 ```{r}
   name.split("e")= ['Alp', 'r', 'n']
