@@ -14,3 +14,6 @@ Below example Shirt class inherit from Clothing class and can use all methods an
 
     polo = Shirt("Polo")
     polo.checkmaterial()
+
+# Composition
+
