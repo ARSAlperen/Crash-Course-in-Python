@@ -23,7 +23,7 @@
       print(FruitA.color) -> red
       
   
-  ## Initialize Class Attributes
+  ## __init__ Initialize Class Attributes (Constructors)
   
       class Apple:
           def __init__(self,color,flavor):
@@ -32,3 +32,49 @@
       
       crimson=Apple("red","sour")
       print("{}, {}".format(crimson.color,crimson.flavor) -> "red, sour"
+      
+      
+      class Person:
+      def __init__(self, name):
+          self.name = name
+      def greeting(self):
+          # Should return "hi, my name is " followed by the name of the Person.
+          return "hi, my name is {}".format(self.name) 
+
+      some_person = Person("Alperen")
+      print(some_person.greeting())
+
+ ## __str__ Method to set a string for class
+ 
+  ***print a friendly message instead of a bunch of numbers.***
+ 
+      class Apple:
+          def __init__(self,color,flavor):
+              self.color = color
+              self.flavor = flavor
+          def__str__(self):
+              return "This apple is {} and its flavor is {}.".format(self.color,self.flavor)
+      
+      crimson=Apple("red","sour")
+      print(crimson) -> This apple is red its flavor is sour.
+      
+  ## Dockstring -> Adding own help documentation to functions, classes, and methods
+  
+  To add dockstring to a function, a class or a method need to write """ """ string at the beginning of the code
+  
+    class Person:
+       """ Give necessary information about the person who is working at X company."""
+       "Dockstring is the line above " 
+       age=0
+       name=""
+       surname=""
+     
+     def intro(self):
+        "Outputs a message including the name of the person."""
+        "Dockstring is the line above " 
+        print("Hi, I'm {} {}.".format(self.name,self.surname)
+        
+      
+  
+      
+  
