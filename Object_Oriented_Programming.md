@@ -5,6 +5,19 @@
 
   ***Methods are functions that are part of the class.***
   
+__Classes and Instances__
+- Classes define the behavior of all instances of a specific class.
+
+- Each variable of a specific class is an instance or object.
+
+- Objects can have attributes, which store information about the object.
+
+- You can make objects do work by calling their methods.
+
+- The first parameter of the methods (self) represents the current instance.
+
+- Methods are just like functions, but they can only be used through a class.
+  
   ## Basic Functions
   
   ### dir() function to get all attributes and methods of an object
@@ -22,7 +35,12 @@
       FruitA.flavor="sour"
       print(FruitA.color) -> red
       
+  ## Special Methods
   
+  ***Special methods***
+  
+   - Special methods start and end with __
+   - Special methods have specific names, like __init__ for the constructor or __str__ for the conversion to string.
   ## __init__ Initialize Class Attributes (Constructors)
   
       class Apple:
