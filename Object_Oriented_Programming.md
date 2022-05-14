@@ -69,11 +69,12 @@
        name=""
        surname=""
      
-     def intro(self):
-        "Outputs a message including the name of the person."""
-        "Dockstring is the line above " 
-        print("Hi, I'm {} {}.".format(self.name,self.surname)
-        
+       def intro(self):
+          "Outputs a message including the name of the person."""
+          "Dockstring is the line above " 
+          print("Hi, I'm {} {}.".format(self.name,self.surname)
+ 
+ The dockstrings will appear when help(Person) typed.
       
   
       
